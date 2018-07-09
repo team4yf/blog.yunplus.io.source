@@ -8,7 +8,8 @@
   "scripts": {
     "install:theme": "git clone https://github.com/yfsoftcom/yf-hexo-theme-freemind.git themes/freemind",
     "install:source": "git clone https://github.com/yfsoftcom/blogs-of-blog.yunplus.io.git source",
-    "install": "npm run install:theme && npm run install:source"
+    "install": "npm run install:theme && npm run install:source",
+    "start": "./node_modules/.bin/hexo g && ./node_modules/.bin/hexo s -d"
   },
   "dependencies": {
     "hexo": "^3.2.2",
