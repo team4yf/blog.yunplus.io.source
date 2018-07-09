@@ -6,11 +6,12 @@
     "version": "3.7.1"
   },
   "scripts": {
-    "install:theme": "git clone https://github.com/yfsoftcom/yf-hexo-theme-freemind.git themes/freemind",
-    "install:source": "git clone https://github.com/yfsoftcom/blogs-of-blog.yunplus.io.git source",
+    "install:theme": "git clone git@github.com:yfsoftcom/yf-hexo-theme-freemind.git themes/freemind",
+    "install:source": "git clone git@github.com:yfsoftcom/blogs-of-blog.yunplus.io.git source",
     "install": "npm run install:theme && npm run install:source",
     "start": "./node_modules/.bin/hexo g && ./node_modules/.bin/hexo s -d",
-    "generate": "./node_modules/.bin/hexo clean && ./node_modules/.bin/hexo g"
+    "generate": "./node_modules/.bin/hexo clean && ./node_modules/.bin/hexo g",
+    "foo": "echo \"foo\""
   },
   "dependencies": {
     "hexo": "^3.2.2",

@@ -74,7 +74,7 @@ admin:
   username: admin
   password_hash: $2a$10$FIEiExgwboOmLj4gtAjeKuItXFTyW8df3kqN5zuk4xOX4J6RiI4cu
   secret: "741235896"
-  deployCommand: "pm2 restart blog.yunplus.io"
+  deployCommand: "yarn run "
   
 qiniu:
   bucket: yfsoft
