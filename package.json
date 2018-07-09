@@ -11,7 +11,9 @@
     "install": "npm run install:theme && npm run install:source",
     "start": "./node_modules/.bin/hexo g && ./node_modules/.bin/hexo s -d",
     "generate": "./node_modules/.bin/hexo clean && ./node_modules/.bin/hexo g",
-    "foo": "echo \"foo\""
+    "foo": "echo \"foo\"",
+    "pull:source": "cd source && git add . && git commit -m \"pull:source\" && git pull && cd .. && npm run generate",
+    "push:source": "cd source && git add . && git commit -m \"push:source\" && git pull && git push && cd .."
   },
   "dependencies": {
     "hexo": "^3.2.2",
