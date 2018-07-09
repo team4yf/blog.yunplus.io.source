@@ -1,7 +1,7 @@
 #! /bin/sh
 
 cd source
-git add . 
+git add --all . 
 git commit -m 'stash:source'
 git pull
 if [ $1 = 'pull' ]; then
