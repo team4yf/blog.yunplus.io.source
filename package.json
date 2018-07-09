@@ -1,9 +1,14 @@
 {
-  "name": "hexo-site",
+  "name": "blog.yunplus.io",
   "version": "0.0.0",
   "private": true,
   "hexo": {
     "version": "3.7.1"
+  },
+  "scripts": {
+    "install:theme": "git clone https://github.com/yfsoftcom/yf-hexo-theme-freemind.git themes/freemind",
+    "install:source": "git clone https://github.com/yfsoftcom/blogs-of-blog.yunplus.io.git source",
+    "install": "npm run install:theme && npm run install:source"
   },
   "dependencies": {
     "hexo": "^3.2.2",
