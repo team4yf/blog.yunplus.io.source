@@ -6,5 +6,7 @@ node_modules/
 public/
 .deploy*/
 
-freemind/
 source/
+
+_admin-config.yml
+themes/freemind
